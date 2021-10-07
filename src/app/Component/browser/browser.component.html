@@ -1,0 +1,5 @@
+<div>
+    <label for="formFileLg" class="form-label">JSON URL</label>
+    <input class="form-control form-control-lg" id="formFileLg" type="file" (change)="uploadFile($event)">
+    <span class="primary-danger err_msg" *ngIf="wronfile==true">Please select JSON file only..!</span>
+  </div>
